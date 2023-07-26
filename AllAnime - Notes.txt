@@ -1,0 +1,38 @@
+Notes for AllAnime(Changeable) Website
+
+Requirements:
+Anime List
+Sort Anime Based on Rating/Date Aired/etc.
+Show anime sypnosis/studio/author/year aired/etc.
+user to-watch-list
+
+----- Data / Datatypes -----
+
+[Anime]
+id
+title
+date aired
+sypnosis
+author
+studio
+
+[User]
+id
+email
+username
+password
+create date
+watch-list id
+
+[to-watch-list]
+id
+user id
+anime id
+create date
+modify date
+
+----- Colors -----
+#7AF17A
+#5A8DE7
+#646060
+#9F9595
